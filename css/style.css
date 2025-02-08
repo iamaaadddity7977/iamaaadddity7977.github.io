@@ -250,7 +250,7 @@ li{
          /*=========== Start Hero section ===========  */
 
          main {
-            position:relative;
+            position:relative;       
         background-image:linear-gradient(to top right, #0062ff, #4484fb,#679eff,#b3d2ff,#ebf3fe);
        }
        
@@ -287,7 +287,7 @@ li{
         height: auto ;
         transform: scalex(-1);
         -webkit-transform: scalex(-1);
-        -moz-transform;scalex(-1);
+        -moz-transform:scalex(-1);
         -ms-transform: scalex(-1);
         -o-transform: scalex(-1);
        }
@@ -677,7 +677,7 @@ input, textarea {
   letter-spacing: 0.1rem;
 }
 .btn-submit {
-  fonnt-size: 1.8rem;
+  font-size: 1.8rem;
   border: none;
   text-transform: capitalize;
 }
@@ -709,7 +709,7 @@ input, textarea {
 
       .footer-subheading {
         font-size: 2.2rem;
-        font-width: 700;
+        font-weight: 700;
       }
       .footer-1--div{
         text-align: left;
